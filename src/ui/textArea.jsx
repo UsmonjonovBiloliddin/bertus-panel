@@ -2,7 +2,7 @@ const TextArea = ({ label, height }) => {
 	return (
 		<div className="form-floating m-3">
 			<textarea
-				className="form-control"
+				className="form-control textArea"
 				placeholder={label}
 				style={{ height: height }}
 			></textarea>

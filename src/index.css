@@ -4,3 +4,53 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+  background: rgb(98,210,251);
+  background: linear-gradient(90deg, rgba(98,210,251,0.28975286403623945) 30%, rgba(122,205,228,0.3457752729998249) 35%, rgba(78,241,216,0.4130021637561274) 100%);
+}
+
+.Loader{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+.Loader img{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:447px) {
+  .Bertus_text{
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (min-width:447px) and (max-width:769px) {
+  .Bertus_text{
+    font-size: 22px;
+  }
+  
+}
+
+
+@media screen and (min-width:769px) and (max-width:990px) {
+  .Bertus_text{
+    font-size: 24px;
+  }
+  
+}
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+  .Bertus_text{
+    font-size: 30px;
+  }
+  
+}

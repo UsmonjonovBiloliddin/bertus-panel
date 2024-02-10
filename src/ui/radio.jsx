@@ -11,7 +11,6 @@ const Radio = ({ label, type, name, id1, id2 }) => {
 					className="form-check-input"
 					type={type}
 					name={name}
-					checked
 					id={id1}
 				/>
 				<label className="form-check-label" htmlFor={id1}>

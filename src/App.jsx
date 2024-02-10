@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 
 function App() {
 	return (
-		<Container>
+		<Container className="container-fluid">
 			<Routes>
 				<Route path="/" element={<Main />} />
 				<Route path="/users" element={<Users />} />
